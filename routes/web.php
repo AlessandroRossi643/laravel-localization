@@ -13,14 +13,18 @@
 
 
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
 Route::group([
   'prefix' => LaravelLocalization::setLocale(),
   'middleware'=>['localize']
 ],function(){
   Route::get('/', function () {
       return view('welcome');
+  });
+  Auth::routes();
+  Route::get('/home', 'HomeController@index')->name('home');
+  Route::get(LaravelLocalization::transRoute('routes.home'),function(){
+    return view::make('home');
   });
 });
