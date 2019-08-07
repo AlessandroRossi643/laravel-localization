@@ -1,0 +1,35 @@
+.whiteHome > div{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  height: 100%;
+  width: auto;
+}
+.logoSecondario{
+  height: 80%;
+  width: auto;
+}
+
+.linkNews li{
+  font-size: 14px;
+  line-height: 3;
+}
+.news{
+  height: 600px;
+}
+
+.deLigt{
+    background-image: url('https://a4b6t7q4.stackpathcdn.com/wp-content/uploads/2019/07/DeLigt-e1563433464238.jpg');
+    background-size: cover;
+}
+.store{
+    background-image: url('https://1.bp.blogspot.com/-zPZ-jPDbsO4/XR8VMQgKQ0I/AAAAAAAAkK0/f9UXwUB1h9geEQyFJDkqFL8SiqsNMh1ZACLcBGAs/w1200-h630-p-k-no-nu/nuovo%2Bstore%2BJuventus%2Ba%2Bmilano.jpg');
+    background-size: cover;
+}
+.active{
+  color: white;
+  border-bottom: 2px solid white;
+}

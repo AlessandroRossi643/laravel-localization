@@ -30,3 +30,14 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+$(document).ready(function(){
+  $('.linkNews li').mouseenter(function(){
+    $(this).addClass('active');
+  });
+
+  $('.linkNews li').mouseleave(function(){
+    $(this).removeClass('active');
+  });
+
+});

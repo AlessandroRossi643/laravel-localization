@@ -1,4 +1,4 @@
 <?php
 return [
-  'home' => 'home',
+  'home' => 'en/home',
 ];

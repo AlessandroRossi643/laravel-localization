@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('Home - Juventus.com Reply', 'Home - Juventus.com Reply'),
 
     /*
     |--------------------------------------------------------------------------

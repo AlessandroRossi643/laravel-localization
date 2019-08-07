@@ -1,4 +1,4 @@
 <?php
 return [
-  'home' => 'menu',
+  'home' => 'it/home',
 ];

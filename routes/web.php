@@ -20,11 +20,11 @@ Route::group([
   'middleware'=>['localize']
 ],function(){
   Route::get('/', function () {
-      return view('welcome');
+      return view('public.home');
   });
   Auth::routes();
   Route::get('/home', 'HomeController@index')->name('home');
   Route::get(LaravelLocalization::transRoute('routes.home'),function(){
-    return view::make('home');
+    return view ('home');
   });
 });
